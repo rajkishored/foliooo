@@ -1,0 +1,320 @@
+body{
+
+
+background-color:   #151414;
+}
+.App{
+  margin: auto;
+}
+
+nav{
+ 
+  display: flex;
+  justify-content: center;
+  gap:250px;
+  margin: auto;
+  text-align: center;
+  margin-top: 10px;
+}
+
+ul{
+  display: flex;
+  justify-content: center;
+  gap:90px;
+  color: inherit;
+  
+  
+}
+li{
+  list-style: none;
+  
+ 
+
+}
+.ll{
+  color:#a0d2eb;
+  text-decoration: none;
+  font-weight: 600;
+
+
+}
+a{
+  color:#a0d2eb;
+  text-decoration: none;
+  font-weight: 600;
+
+}
+/* ////////////////////// */
+
+.rain-container {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: hidden;
+  pointer-events: none; /* Ensure it doesn't block interactions */
+}
+
+.raindrop {
+  position: absolute;
+  top: -50px;
+  color: white;
+  font-size: 30px;
+  animation: fall linear 3s 0s 2;
+}
+
+@keyframes fall {
+  0% {
+    top: -50px;
+    opacity: 1;
+  }
+  50% {
+    
+    opacity: 1;
+  }
+  100% {
+    top: 100vh;
+    opacity: 0;
+  }
+}
+
+.det-img{
+  max-width: 100%;
+  display: flex;
+  margin-top: 50px;
+  position: relative;
+  z-index: 1;
+
+}
+.det{
+  flex-basis: 50%;
+  text-align: left;
+  padding-left: 90px;
+  padding-top: 90px;
+  
+}
+.img{
+  flex-basis: 50%;
+
+}
+
+.det h1,h2{
+  color: aliceblue;
+  
+}
+.det span{
+  color:#8e69b7;
+  transition:0.9s;
+}
+.det h3{
+  color:#8e69b7
+}
+
+.skill{
+  max-width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+  margin-top: 100px;
+  
+  gap:30px
+
+}
+.h11{
+  color: #a0d2eb;
+  text-align: center;
+}
+.fullst{
+  flex-basis: 50%;
+  gap: 30px;
+  display: flex;
+
+  padding-top: 20px;
+}
+.skil-lan{
+  flex-basis: 50%;
+  display: flex;
+  gap:30px;
+  padding-top: 20px;
+}
+
+.front, .back, .lang, .other{
+text-align: center;
+border-radius: 5px;
+width: 300px;
+height: 300px;
+box-shadow: rgba(132, 197, 230, 0.5) 0px 0px 0.25em, rgba(160, 210, 235, 0.5) 0px 0.25em 1em;
+}
+.front:hover, .back:hover, .lang:hover, .other:hover{
+  transform: scale(1.1);
+  transition: 0.3s ease;
+  box-shadow: rgba(160, 210, 235, 1) 0px 0px 0.25em, rgba(160, 210, 235, 0.5) 0px 0.25em 1em;
+}
+
+.front{
+  flex-basis: 50%;
+}
+.back{
+  flex-basis: 50%;
+}
+.skil-lan{
+  flex-basis: 50%;
+}
+.other{
+  flex-basis: 50%;
+}
+label{
+  color:#8188a4;
+  background-color: #000000;
+  padding: 9px;
+  border-radius: 4px;
+  margin-right: 9px;
+  margin-left: 9px;
+ border: 1px solid #585d73;
+}
+label:hover{
+  transform: scale(1.1);
+  transition: 0.3s ease;
+  box-shadow: rgba(160, 210, 235, 1) 0px 0px 0.25em, rgba(160, 210, 235, 0.5) 0px 0.25em 1em;
+ }
+  
+
+.fst{
+  margin-top: 30px;
+}
+.sec{
+  margin-top: 40px;
+}
+.thi{
+  margin-top: 40px;
+}
+
+/* //////////////////////////////////////////////// */
+
+/* Projects */
+
+.projects{
+   margin-top: 50px;
+   max-width: 100%;
+  
+}
+
+.proitem{
+  max-width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap:20px
+  
+
+
+}
+.pcard{
+  display: flex;
+  flex-direction: column;
+  color:#8188a4;
+  border-radius: 7px;
+  
+
+}
+.pcard:hover{
+  transform: scale(1.1);
+  transition: 0.3s ease;
+  box-shadow: rgba(160, 210, 235, 1) 0px 0px 0.25em, rgba(160, 210, 235, 0.5) 0px 0.25em 1em;
+ }
+.pimg{
+  flex-basis: 50%;
+  
+  padding: 0px;
+}
+.pcontent{
+  flex-basis: 50%;
+ 
+  background-color: #0a0a0a;
+ 
+}
+/* /////////////////////////////////////////// */
+
+/* education */
+
+.educ{
+
+  margin-top: 30px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+ 
+}
+.edu-card{
+
+  max-width: 36%;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  
+   
+ 
+  
+  margin: auto;
+  color:#8188a4;
+  background-color: #000000;
+  padding: 9px;
+  border-radius: 4px;
+  border: 1px solid #585d73;
+  box-shadow: rgba(160, 210, 235, 1) 0px 0px 0.05em, rgba(160, 210, 235, 0.5) 0px 0.25em 1em;
+  cursor: pointer;
+ 
+
+}
+
+
+.img-nam{
+  display: flex;
+  justify-content: left;
+  gap: 10px;
+
+}
+.eimg{
+  flex-basis: 10%;
+
+}
+.eimg img{
+  border-radius: 10px;
+}
+.enam{
+  flex-basis: 90%;
+}
+.enam p,h4{
+  margin: 0px;
+}
+.e-det p{
+   margin: 2px 0px;
+}
+
+
+/* /////////////////////// */
+/* Works */
+.worksss{
+  max-width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: left;
+  gap: 50px;
+  margin-top: 80px;
+  
+}
+.work-namee{
+  flex-basis: 10%;
+  display: flex;
+  flex-direction: column;
+ 
+}
+.work-details{
+  flex-basis: 80%;
+}
+

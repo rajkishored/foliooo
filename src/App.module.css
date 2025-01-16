@@ -1,0 +1,34 @@
+.bb{
+
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+  
+    background-color: #FBF5E5
+    }
+    .navv{
+      background-color: #C890A7;
+    }
+  
+    .ull{
+      margin-top: 0px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      margin-right:10px ;
+      display: flex;
+      justify-content:center;
+      gap:30px;
+      font-size: 18px;
+      color: white;
+      
+      list-style: none;
+      
+    
+    }
+    .navli{
+      text-decoration: none;
+      color: inherit;
+  
+    }
+  
