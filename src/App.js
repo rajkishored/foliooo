@@ -8,6 +8,11 @@ import Works from './Works';
 import Home from './Home';
 
 function App() {
+
+  let ress=()=>{
+
+    window.open("https://drive.google.com/file/d/1FA2wkLrT_xDPgUfzZiVvRopHlOQh6mVP/view?usp=sharing","_blank")
+  };
   return (
     <div className="App">
       <Router>
@@ -16,10 +21,10 @@ function App() {
             <ul>
               <li> <Link className="ll" to="/"><FaHome/>  HOME  </Link> </li>
               <li> <Link className="ll" to="/works"><GrWorkshop/> WORKS  </Link> </li>
-              <li>  <a href='https://fkhadra.github.io/react-toastify/introduction/'><SiGooglesheets/> RESUME</a> </li>
+              <li className="ll" onClick={ress}>  <SiGooglesheets/> RESUME  </li>
                
             </ul>
-            
+
 
         </nav>
         <Routes>

@@ -18,6 +18,8 @@ import { FaPython } from "react-icons/fa";
 import { FaJava } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import Educ from "./Education";
+import Footer from "./Footer";
+import Contact from "./Contcat";
 
 
 
@@ -62,8 +64,9 @@ return( <div>
         <img src="cart.png" alt="" />
       </div> 
     </div>
-   
+    <hr style={{border:"1px solid rgb(60, 63, 75)" , marginTop:" 90px"}}></hr> 
    <div className="skill">
+
 
   <Skills/>
 
@@ -95,6 +98,11 @@ return( <div>
    
 
 </div>
+<hr style={{border:"1px solid rgb(60, 63, 75)" , marginTop:" 90px"}}></hr>
+<Contact/>
+
+<hr style={{border:"1px solid rgb(63, 67, 81)" , margin:" 20px 0px"}}></hr>
+<Footer/>
 
 
     </div>

@@ -2,7 +2,7 @@ import React, { use, useState } from "react";
 import Weather from "./WeatherApp";
 import TODO from "./Todo";
 import Password from "./Password";
-import Logg from "./LOginform";
+import Logg from "./Loginform";
 
 function Works(){
 
