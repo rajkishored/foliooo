@@ -2,7 +2,7 @@ import React, { use, useState } from "react";
 import Weather from "./WeatherApp";
 import TODO from "./Todo";
 import Password from "./Password";
-import Logg from "./Loginform";
+// import Logg from "./Loginform";
 
 function Works(){
 
@@ -15,7 +15,7 @@ return(
         <label htmlFor=""  onClick={()=>setworks(<Weather/>)}>Weather</label>
           <label htmlFor="" onClick={()=>setworks(<TODO/>)}>todo</label>
           <label htmlFor="" onClick={()=>setworks(<Password/>)}>password</label>
-          <label htmlFor="" onClick={()=>setworks(<Logg/>)}>Login</label>
+          {/* <label htmlFor="" onClick={()=>setworks(<Logg/>)}>Login</label> */}
           
           
         </div>
