@@ -83,7 +83,8 @@ a{
 }
 
 .det-img{
-  max-width: 100%;
+  max-width: 70%;
+  margin: auto;
   display: flex;
   margin-top: 50px;
   position: relative;
@@ -92,18 +93,21 @@ a{
 
 }
 .det{
-  flex-basis: 30%;
+  flex-basis: 50%;
   text-align: left;
-  padding-left: 180px;
+  margin: auto;
+
   padding-top: 90px;
   
 }
 .img{
   flex-basis: 50%;
+  margin: auto;
 
 }
 .img img{
-  padding-left: 160px;
+  padding-left: 0px;
+  margin: auto;
 }
 
 .det h1,h2{
