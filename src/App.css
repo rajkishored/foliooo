@@ -88,18 +88,22 @@ a{
   margin-top: 50px;
   position: relative;
   z-index: 1;
+  flex-wrap: wrap;
 
 }
 .det{
-  flex-basis: 50%;
+  flex-basis: 30%;
   text-align: left;
-  padding-left: 90px;
+  padding-left: 180px;
   padding-top: 90px;
   
 }
 .img{
   flex-basis: 50%;
 
+}
+.img img{
+  padding-left: 160px;
 }
 
 .det h1,h2{
@@ -128,6 +132,8 @@ a{
 .h11{
   color: #a0d2eb;
   text-align: center;
+  margin-bottom:30px;
+
 }
 .fullst{
   flex-basis: 50%;
@@ -205,16 +211,18 @@ label:hover{
 }
 
 .proitem{
-  max-width: 90%;
+  max-width: 80%;
   margin: auto;
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   gap:20px
   
 
 
 }
 .pcard{
+  flex-basis: 30%;
   display: flex;
   flex-direction: column;
   color:#8188a4;
