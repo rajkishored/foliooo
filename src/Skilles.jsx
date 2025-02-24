@@ -1,5 +1,5 @@
 import React from "react";
-import { DiVim } from "react-icons/di";
+
 import { FaHtml5 } from "react-icons/fa";
 import { IoLogoCss3 } from "react-icons/io";
 import { TbBrandJavascript } from "react-icons/tb";
@@ -14,6 +14,7 @@ import { TbBrandCpp } from "react-icons/tb";
 import { FaJava } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import { PiTreeStructureFill } from "react-icons/pi";
+import { FaAws } from "react-icons/fa";
 
 
 
@@ -22,41 +23,46 @@ import { PiTreeStructureFill } from "react-icons/pi";
 function Skills(){
 
 return(
- <div>
-    <h1 className="h11">SKILLS</h1>
-    <div className="fullst">
+ <div className="sk">
+    
+  
         <div className="front">
             <h2>Frontend</h2>
+            <div className="front2">
             <div className="fst"> <label htmlFor=""><TbBrandJavascript/> JavaScript</label>
-            <label htmlFor=""> <FaHtml5/>  Html</label></div>
+            <label htmlFor=""> <FaHtml5/>  Html</label> </div>
             <div className="sec">       <label htmlFor=""><IoLogoCss3/> Css</label>
             <label htmlFor=""><FaReact/> React</label></div>
            <div className="thi">  <label htmlFor=""><FaBootstrap/> Bootstrap</label> </div>
           
-           
+           </div>
         </div>
         
         <div className="back">
         <h2>Backend</h2>
-        <div className="fst"><label htmlFor=""><FaNodeJs/> Node.js</label></div>
-        <div className="sec">  <label htmlFor=""><SiExpress/> Express.js</label>
+        <div className="back2">
+        <div className="fst"><label htmlFor=""><FaNodeJs/> Node.js</label>  <label htmlFor=""><SiExpress/> Express.js</label></div>
+        <div className="sec"> 
         <label htmlFor=""><BiLogoPostgresql/> Postgres</label></div>
-        <div className="thi"> <label htmlFor=""><SiMysql/> MySql</label></div>
+        <div className="thi"> <label htmlFor=""><SiMysql/> MySql</label>
+        <label htmlFor=""><FaAws /> AWS</label>
+        </div>
+        </div>
       
       
         
 
           
         </div>
-    </div>
+    
 
-  <div className="skil-lan">
-     <div className="lang">
+  
+     <div className="front">
      <h2>Languages</h2>
 
-     <div className="fst"><label htmlFor=""><FaPython/> Python</label></div>
+     <div className="fst"><label htmlFor=""><FaPython/> Python</label> <label htmlFor=""><TbBrandCpp/> C++</label></div>
      <div className="sec">
-       <label htmlFor=""><TbBrandCpp/> C++</label>
+       
        <label htmlFor=""><FaJava/> Java</label></div>
      <div className="thi"></div>
 
@@ -65,14 +71,14 @@ return(
   
            
       </div>
-    <div className="other">
+    <div className="back">
     <h2>Others</h2>
-    <div className="fst"><label htmlFor=""><FaGithub/> Github</label></div>
+    <div className="fstt"><label htmlFor=""><FaGithub/> Github</label>     <label htmlFor=""><PiTreeStructureFill/>   Datastructures</label></div>
      <div className="sec">
-     <label htmlFor=""><PiTreeStructureFill/>   Datastructures</label></div>
+ </div>
      <div className="thi"></div>
     
-    </div>
+   
 </div>
 </div>)
 

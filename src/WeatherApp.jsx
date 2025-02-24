@@ -40,6 +40,7 @@ function Weather(){
       setcity('')
 
     }
+    let [show,setshow]=useState(false)
     
     
 
@@ -52,7 +53,7 @@ return( <div className={w.weatherapp}>
 
         
         <form onSubmit={getdata}>
-      <input type="text"  value={city} onChange={(event)=>setcity(event.target.value)} placeholder="city name"  /><button type="submit">Search</button>
+      <input type="password"  value={city} onChange={(event)=>setcity(event.target.value)} placeholder="city name"  /> <span style={{color:"wheat",cursor:"pointer"}}onClick={()=>setshow(!show)}>ey</span><button type="submit">Search</button>
       </form>
 
       </div>

@@ -38,7 +38,7 @@ function Home(){
     },[]);
 
 
-return( <div>
+return( <div className="hmcontainer">
      <div className="rain-container">
         <div className="raindrop" style={{ animationDuration: '2s', left: '5%', animationDelay: '0s' ,color:"#8e69b7"}}>< FaHtml5 /></div>
         <div className="raindrop" style={{ animationDuration: '3s', left: '20%', animationDelay: '1s',color:"#8e69b7" }}><IoLogoCss3/></div>
@@ -67,13 +67,17 @@ return( <div>
     <hr style={{border:"1px solid rgb(60, 63, 75)" , marginTop:" 90px"}}></hr> 
    <div className="skill">
 
-
+   <h1 className="h11">SKILLS</h1>
+   <p >"Always eager to learn and grow, embracing new challenges with every project"</p>
   <Skills/>
 
    </div>
+   <hr style={{border:"1px solid rgb(60, 63, 75)" , marginTop:" 90px"}}></hr> 
 
-   <div className="projects"></div>
-   <h1 style={{color:"#a0d2eb",textAlign:"center",marginBottom:"40px",marginTop:"140px"}}>Projects</h1>
+   <div className="projects">
+
+   <h1 style={{color:"#8e69b7",textAlign:"center",marginBottom:"20px",marginTop:"40px"}}>Projects</h1>
+   <p >"From concept to completion, I approach each project with creativity and precision, ensuring the final result exceeds expectations."</p>
    <div className="proitem">
      
 
@@ -85,11 +89,12 @@ return( <div>
 
 
       </div>
+  </div>
 
-
+  <hr style={{border:"1px solid rgb(60, 63, 75)" , marginTop:" 0px"}}></hr> 
 <div className="educ">
-    <h1 style={{ color:" #a0d2eb",textAlign:"center",marginBottom:"60px",marginTop:"100px"}}>Education</h1>
-    
+    <h1 style={{ color:"#8e69b7",textAlign:"center",marginBottom:"0px",marginTop:"20px"}}>Education</h1>
+    <p className=" educc">"Committed to continuous learning, I seek to expand my knowledge through both formal education and independent study."</p>
     {education.map((v,i)=>{
 
         return  <Educ dett={v} key={i}/>
@@ -102,7 +107,9 @@ return( <div>
 <Contact/>
 
 <hr style={{border:"1px solid rgb(63, 67, 81)" , margin:" 20px 0px"}}></hr>
+
 <Footer/>
+
 
 
     </div>

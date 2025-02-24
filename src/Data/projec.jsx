@@ -33,7 +33,7 @@ export  let Projec=[
 
 export let education=[
    {
-    img:"https://www.vasavischoolkgl.com/site/images/new_logo.png",
+    img:"https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3c/b5/8b/3cb58b34-727c-e586-e1b5-1149f3efa763/AppIcon-0-0-1x_U007epad-0-85-220.png/60x60bb.jpg",
     sname:"Sree Vasavi Vidya Kendra",
     fromm:"1-5",
     date:"2007-2012",
@@ -66,7 +66,7 @@ export let education=[
     fromm:"BCA",
     date:"2019-22",
     Grade: "80.8%",
-    about:"I completed my Bca in St Joseph First Grade College where I took Computer Applications as a course"
+    about:"I completed my Bca in St Joseph First Grade College where I took Computer Applications as a course."
 
    }   ,    
    {

@@ -18,16 +18,22 @@ function Footer()
     <p><span><BiLogoGmail/></span> rajkishored2001@gmail.com</p>
     <p><span><FaLocationDot/></span>Kollegal</p>
     
-     <div className="contdiv">
+     {/* <div className="contdiv">
  
-     </div>
+     </div> */}
 
    </div>
    <div className="fsocial">
     <h3 > Social</h3>
-    <h4 style={{fontSize:"30px"}}><span><a href="https://www.linkedin.com/in/rajkishoredjr/"><FaLinkedin/></a></span><span><a href="https://github.com/rajkishored?tab=overview&from=2025-01-01&to=2025-01-17"><FaGithub/></a></span><span><a href="https://www.instagram.com/"><FaInstagramSquare/></a></span></h4>
-    <h4 style={{marginTop:"155px"}}>rajkishore@2024</h4>
+    <div  className="fsh4">
+    <h4 ><span><a href="https://www.linkedin.com/in/rajkishoredjr/"><FaLinkedin/></a></span><span><a href="https://github.com/rajkishored?tab=overview&from=2025-01-01&to=2025-01-17"><FaGithub/></a></span><span><a href="https://www.instagram.com/"><FaInstagramSquare/></a></span></h4>
+    </div>
+    
+     
+   
    </div>
+
+   <div className="fh4">   <h4 >rajkishore@2024</h4>  </div>
 
 
 
