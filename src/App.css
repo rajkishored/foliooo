@@ -47,7 +47,7 @@ a{
 }
 
 
-@media(max-width:480px){
+@media(max-width:360px){
 
   nav{
     max-width: 50%;
@@ -136,7 +136,7 @@ a{
 .det h3{
   color:#8e69b7
 }
-@media(max-width:480px){
+@media(max-width:360px){
   .img img{
     width:300px;
     margin-top: 5%;
@@ -263,7 +263,7 @@ label:hover{
 .thi{
   margin-top: 40px;
 }
-@media( max-width:480px){
+@media( max-width:360px){
   /* .front{
   width: 100%;
   } 
@@ -350,7 +350,7 @@ label:hover{
   background-color: #0a0a0a;
  
 }
-@media(max-width:480px){
+@media(max-width:360px){
   .pimg img{
   max-width: 300px;
 }
@@ -432,7 +432,7 @@ label:hover{
 .e-det p{
    margin: 2px 0px;
 }
-@media(max-width:480px){
+@media(max-width:360px){
   .edu-card{
 
     max-width: 80%;}
@@ -511,7 +511,7 @@ label:hover{
 
   color: #9fc6da;
 }
-@media(max-width:480px){
+@media(max-width:360px){
   .workss{
     max-width: 90%;
   }
@@ -578,7 +578,7 @@ padding: 10px;
 }
 
 
-@media(max-width:480px){
+@media(max-width:360px){
   .foot{
     gap: 60px;
    
@@ -702,7 +702,7 @@ padding: 10px;
  
   
 }
-@media(max-width:480px){
+@media(max-width:768px){
   .emialcont{
     max-width: 400px;
   }
