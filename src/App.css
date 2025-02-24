@@ -47,7 +47,7 @@ a{
 }
 
 
-@media(max-width:380px){
+@media(max-width:480px){
 
   nav{
     max-width: 50%;
@@ -136,7 +136,7 @@ a{
 .det h3{
   color:#8e69b7
 }
-@media(max-width:380px){
+@media(max-width:480px){
   .img img{
     width:300px;
     margin-top: 5%;
@@ -263,7 +263,7 @@ label:hover{
 .thi{
   margin-top: 40px;
 }
-@media( max-width:380px){
+@media( max-width:480px){
   /* .front{
   width: 100%;
   } 
@@ -350,7 +350,7 @@ label:hover{
   background-color: #0a0a0a;
  
 }
-@media(max-width:380px){
+@media(max-width:480px){
   .pimg img{
   max-width: 300px;
 }
@@ -432,7 +432,7 @@ label:hover{
 .e-det p{
    margin: 2px 0px;
 }
-@media(max-width:380px){
+@media(max-width:480px){
   .edu-card{
 
     max-width: 80%;}
@@ -511,7 +511,7 @@ label:hover{
 
   color: #9fc6da;
 }
-@media(max-width:380px){
+@media(max-width:480px){
   .workss{
     max-width: 90%;
   }
@@ -578,9 +578,9 @@ padding: 10px;
 }
 
 
-@media(max-width:380px){
+@media(max-width:480px){
   .foot{
-    gap: 0px;
+    gap: 60px;
    
   }
   .fcont{
@@ -702,14 +702,21 @@ padding: 10px;
  
   
 }
-@media(max-width:380px){
+@media(max-width:480px){
   .emialcont{
-    max-width: 300px;
+    max-width: 400px;
   }
   .emialcont h3{
    margin: 3px 50px;
 
   }
+  .emialcon h3{
+    margin:4px 100px;
+    text-align: left;
+    font-weight: 400;
+    
+}
+  
 }
 
 /* /////////////////////////////
