@@ -33,7 +33,7 @@ function Footer()
    
    </div>
 
-   <div className="fh4">   <h4 >rajkishore@2024</h4>  </div>
+   <div className="fh4">   <h4 >rajkishored@{new Date().getFullYear()}</h4>  </div>
 
    <Scroll/>
 
