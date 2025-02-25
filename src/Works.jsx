@@ -31,16 +31,3 @@ return(
 export default Works;
 
 
-{/* <div className="worksss">
-     <div className="work-namee">
-        <label htmlFor=""  onClick={()=>setworks(<Weather/>)}>Weather</label>
-          <label htmlFor="" onClick={()=>setworks(<TODO/>)}>todo</label>
-          <label htmlFor="" onClick={()=>setworks(<Password/>)}>password</label>
-          {/* <label htmlFor="" onClick={()=>setworks(<Logg/>)}>Login</label> */}
-    //       <label htmlFor="" onClick={()=>setworks(<REcipe/>)}>Recipes</label>
-          
-    // </div>
-    //     <div className="work-details">
-    //             {works} 
-    //     </div>
-    //     </div> */}

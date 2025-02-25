@@ -189,20 +189,7 @@ a{
   margin-bottom: 0px;
   padding: 0px 6%;
 }
-/* .fullst{
-  flex-basis: 50%;
-  gap: 30px;
-  display: flex;
-  flex-wrap: wrap;
 
-  padding-top: 20px;
-}
-.skil-lan{
-  flex-basis: 50%;
-  display: flex;
-  gap:30px;
-  padding-top: 20px;
-} */
 
 .front, .back, .lang, .other{
 text-align: center;
@@ -220,18 +207,7 @@ box-shadow: rgba(132, 197, 230, 0.5) 0px 0px 0.25em, rgba(160, 210, 235, 0.5) 0p
   padding: 2%;
 }
 
-/* .front{
-  flex-basis: 50%;
-}
-.back{
-  flex-basis: 50%;
-}
-.skil-lan{
-  flex-basis: 50%;
-}
-.other{
-  flex-basis: 50%;
-} */
+
 label{
   color:#8188a4;
   background-color: #000000;
@@ -288,6 +264,9 @@ label:hover{
   label{
    margin-top: 4%;
    
+  }
+  .skill p{
+  font-size: 0.7rem;
   }
 }
 
@@ -359,6 +338,10 @@ label:hover{
   max-width: 300px;
   padding: 0px;
 }
+
+.projects p{
+  font-size: 0.7rem;
+}
 .pcontent{
 
   max-width: 300px;
@@ -404,7 +387,7 @@ label:hover{
 .educc {
  
   text-align: center;
-  margin-bottom: 27px;
+  margin-bottom: 23px;
   padding: 0px 6%;
   color:#a3a3a3;
 }
@@ -436,64 +419,18 @@ label:hover{
   .edu-card{
 
     max-width: 80%;}
+    .educc {
+      font-size: 0.7rem;}
 }
 
 
-/* /////////////////////// */
-/* Works */
-/* .worksss{
-  max-width: 100%;
-  margin: auto;
-  display: flex;
-  justify-content: left;
-  gap: 50px;
-  margin-top: 80px;
-  
-}
-.work-namee{
-  flex-basis: 10%;
-  display: flex;
-  flex-direction: column;
-  max-width: 100%;
- 
-}
-.work-details{
-  flex-basis: 80%;
-  max-width: 100%;
 
-}
-@media(max-width:460px){
-.worksss{
-  max-width: 100%;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 50px;
-  margin-top: 80px;
-  
-}
-.work-namee{
- max-width: 100vh;
-  display: flex;
-
- 
-}
-.work-details{
-  max-width: 100vh;
-
-}
-
-} */
 .workss {
   max-width: 40%;
   margin: auto;
   text-align: left;
   margin-top:5% ;
 }
-/* .workss2{
-  max-width: ;
-} */
 
 .workss ul{
   display: flex;
@@ -580,12 +517,13 @@ padding: 10px;
 
 @media(max-width:460px){
   .foot{
-    gap: 60px;
+    gap: 10px;
    
   }
   .fcont{
     margin-left: 10px;
     margin-top: 20px;
+    width: 265px;
   }
   .fsocial{
     margin-top: 29px;
@@ -605,11 +543,12 @@ padding: 10px;
   }
   .foot{
   height: 300px;
+  margin-top: 10%;
   }
   .fh4 {
-    font-size: 15px;
-   
-    left:35%;
+    font-size: 12px;
+    bottom: 7%;
+    left:39%;
   }
   .fh4 h4{
     color: #7c8091;
@@ -711,7 +650,7 @@ padding: 10px;
 
   }
   .emialcon h3{
-    margin:4px 100px;
+    margin:4px 50px;
     text-align: left;
     font-weight: 400;
     
@@ -719,97 +658,42 @@ padding: 10px;
   
 }
 
-/* /////////////////////////////
-recipe */
-/* .qiz_cont{
-    max-width: 100%;
-    margin: auto;
-    text-align: center;
-    color: wheat;
-   
-   
-}
-.qiz_cont h1{
-  font-size: 3rem;
-}
-.qiz_cont p{
-    font-size: 1.5rem;
-}
+/* /////////////////////// */
 
-.qiz_cont h1{
-    text-align: center;
+
+.scroll{
+  position: absolute;
+  right:20px;
+  bottom:230px;
+
 }
-.recipedet{
-    margin-top: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-   
-    
-}
-.recipedet img{
-    width: 300px;
-    height: 200px;
+.scroll button{
+  background-color: black;
+  color:#a0d2eb; 
+  font-size: 30px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border: none;
+  cursor: pointer;
+  
   
 }
-.recimg {
-    margin-top: 20px;
-    flex-basis: 30%;
-}
+.scroll button:hover{
+ 
+  transform: scale(1.1);
+  transition: 0.3s ease;
+  box-shadow: rgba(160, 210, 235, 1) 0px 0px 0.25em, rgba(160, 210, 235, 0.5) 0px 0.25em 1em;
+ }
 
-.rdet,.rins{
-   
-    padding: 5px;
-    border-left: 1px solid black;
-}
-.rdet{
-    flex-basis: 20%;
-    
-}
-.rins{
-    flex-basis: 45%;
-}
-.back_img {
-  max-width: 100%;
+ @media(max-width:460px){
+  .scroll{
+  
+    right:22px;
+    bottom:10px;
+  
+  }
+  .scroll button{
+    font-size: 25px;
+  }
+ }
 
-
-  margin-top: 50px;
-}
-.back_img img{
-    max-width: 100%;
-    max-height: auto;
-}
-
-@media (max-width:480px){
-
-    .qiz_cont h1{
-        font-size: 1.5rem;
-      }
-      .qiz_cont p{
-          font-size: 1rem;
-      }
-      .recipedet{
-        margin-top: 50px;
-        display: flex;
-        flex-direction: column;
-        
-        justify-content: center;
-        gap: 10px;
-       
-        
-        }
-
-        .rdet,.rins{
-   
-            padding: 5px;
-            border-top: 1px solid black;
-        }
-        .rdet2{
-           
-            
-        }
-
-
-
-} */

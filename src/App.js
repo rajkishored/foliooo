@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import { Link, Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import { FaHome } from "react-icons/fa";

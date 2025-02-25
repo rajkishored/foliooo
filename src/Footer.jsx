@@ -1,11 +1,11 @@
-import react from "react";
+
 import { FaPhoneAlt } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
-import Contact from "./Contcat";
+import Scroll from "./Scrollup";
 
 function Footer()
 {
@@ -34,6 +34,8 @@ function Footer()
    </div>
 
    <div className="fh4">   <h4 >rajkishore@2024</h4>  </div>
+
+   <Scroll/>
 
 
 
