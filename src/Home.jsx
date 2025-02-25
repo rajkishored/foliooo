@@ -63,7 +63,7 @@ return( <div className="hmcontainer">
       <div className="img">
         <img src="cart.png" alt="" />
       </div> 
-    </div>
+  </div>
     <hr style={{border:"1px solid rgb(60, 63, 75)" , marginTop:" 90px"}}></hr> 
    <div className="skill">
 
