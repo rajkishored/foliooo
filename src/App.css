@@ -99,12 +99,13 @@ a{
 
 .det-img{
   max-width: 70%;
-margin: auto;
+
   display: flex;
-  margin-top: 3%px;
+  margin-top: 3%;
   position: relative;
   z-index: 1;
   flex-wrap: wrap;
+  margin: auto;
 
 }
 .det{
