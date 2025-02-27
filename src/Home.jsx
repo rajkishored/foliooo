@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from "react";
-import Skills from "./Skilles";
-import Projects from "./Projects";
+import React, { Suspense, useEffect, useState } from "react";
+
 
 import { Projec,education } from "./Data/projec";
 import { FaHtml5 } from "react-icons/fa";
@@ -17,12 +16,19 @@ import { FaPython } from "react-icons/fa";
 
 
 import { FaGithub } from "react-icons/fa6";
-import Educ from "./Education";
-import Footer from "./Footer";
-import Contact from "./Contcat";
+// import Educ from "./Education";
+// import Footer from "./Footer";
+// import Contact from "./Contcat";
+// import Skills from "./Skilles";
+// import Projects from "./Projects";
 
 
 
+const Educ=React.lazy(()=>import('./Education'));
+const Footer=React.lazy(()=>import('./Footer'))
+const Contact=React.lazy(()=>import('./Contcat'))
+const Skills=React.lazy(()=>import('./Skilles'))
+const Projects=React.lazy(()=>import('./Projects'))
 
 
 function Home(){
@@ -65,11 +71,14 @@ return( <div className="hmcontainer">
       </div> 
   </div>
     <hr style={{border:"1px solid rgb(60, 63, 75)" , marginTop:" 90px"}}></hr> 
+  
    <div className="skill">
 
    <h1 className="h11">SKILLS</h1>
    <p >"Always eager to learn and grow, embracing new challenges with every project"</p>
+   <Suspense fallback={<div>Loading...</div>}>
   <Skills/>
+  </Suspense>
 
    </div>
    <hr style={{border:"1px solid rgb(60, 63, 75)" , marginTop:" 90px"}}></hr> 
@@ -81,10 +90,11 @@ return( <div className="hmcontainer">
    <div className="proitem">
      
 
-
+   <Suspense fallback={<div>Loading...</div>}>
     {Projec.map((v,i)=>{
          return <Projects  cont={v} key={i}/>
-    })}   
+    })}  
+    </Suspense> 
   
 
 
@@ -95,21 +105,23 @@ return( <div className="hmcontainer">
 <div className="educ">
     <h1 style={{ color:"#8e69b7",textAlign:"center",marginBottom:"0px",marginTop:"20px"}}>Education</h1>
     <p className=" educc">"Committed to continuous learning, I seek to expand my knowledge through both formal education and independent study."</p>
+    <Suspense fallback={<div>Loading...</div>}>
     {education.map((v,i)=>{
 
         return  <Educ dett={v} key={i}/>
     })}
 
-   
+</Suspense>
 
 </div>
 <hr style={{border:"1px solid rgb(60, 63, 75)" , marginTop:" 90px"}}></hr>
+<Suspense fallback={<div>Loading...</div>}>
 <Contact/>
-
+</Suspense>
 {/* <hr style={{border:"1px solid rgb(63, 67, 81)" , margin:" 20px 0px"}}></hr> */}
-
+<Suspense fallback={<div>Loading...</div>}>
 <Footer/>
-
+</Suspense>
 
 
     </div>

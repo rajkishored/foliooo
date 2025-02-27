@@ -4,8 +4,12 @@ import { Link, Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import { FaHome } from "react-icons/fa";
 import { GrWorkshop } from "react-icons/gr";
 import { SiGooglesheets } from "react-icons/si";
-import Works from './Works';
-import Home from './Home';
+// import Works from './Works';
+// import Home from './Home';
+import React,{Suspense} from 'react';
+
+const  Works=React.lazy(()=>import('./Works'))
+const Home=React.lazy(()=>import('./Home'))
 
 function App() {
 
@@ -27,11 +31,13 @@ function App() {
 
 
         </nav>
+        <Suspense fallback={<div>Loading...</div>}>
         <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/works" element={<Works />} />
         
         </Routes>
+        </Suspense>
 
 
       </Router>
